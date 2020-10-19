@@ -1,0 +1,130 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+img{
+	
+	max-width: 100%;
+}
+header{
+	min-height: 8vh;
+	background-color: #ffc938;
+	
+}
+footer{
+	min-height: 15vh;
+	background-color: #ffc938;
+}
+
+.contenedor{
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+.row{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+
+
+
+.col-1 {width: 8.33%;} 
+.col-2 {width: 16.66%;}
+.col-2a{width: 20%;}
+.col-3 {width: 25%;} 
+.col-4 {width: 33.33%;} 
+.col-5 {width: 41.66%;} 
+.col-6 {width: 50%;} 
+.col-7 {width: 58.33%;} 
+.col-8 {width: 66.66%;} 
+.col-9 {width: 75%;} 
+.col-10 {width: 83.33%;} 
+.col-11 {width: 91.66%;} 
+.col-12 {width: 100%;}
+
+nav{
+	font-weight: bold;
+	font-size: 15pt;
+	background-color: #ffc938;
+	height: 8vh;
+	padding: 0 15%;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 1;
+	position: relative;
+	opacity: 0.5;
+}
+a{
+	text-decoration: none;
+	text-align: center;
+}
+.centrado{
+	justify-content: center;
+}
+.textoblanco{
+	color:white;
+}
+.negro{
+	background-color:black;
+}
+#slider{
+	top:-8vh;
+	z-index: 0;
+	position: relative;
+}
+.destacados{
+	padding: 0 5vw;
+	min-height: 70vh;
+}
+.margen_interno5vw{
+	padding: 5vw 5vw;
+}
+.texto_centrado{
+	text-align: center;
+}
+
+#descripcion_restaurante{
+	
+	min-height: 15vh;
+	padding: 5vw 10vw;
+	margin-top: -8vh;
+	
+}
+#texto_resumen {
+  font-size: 29px;
+  font-family: "Candara";
+  color: rgb(0, 37, 168);
+  line-height: 1.2;
+  text-align: center;
+}
+.texto_evento {
+	text-align: justify;
+	  -webkit-hyphens: auto; 
+  -moz-hyphens:auto; 
+  -ms-hyphens: auto; 
+  hyphens: auto;
+  font-size: 29px;
+  font-family: "Candara";
+  color:white;
+  line-height: 1.2;
+}
+.texto_paladrar{
+	text-align: justify;
+	  -webkit-hyphens: auto; 
+  -moz-hyphens:auto; 
+  -ms-hyphens: auto; 
+  hyphens: auto;
+  font-size: 29px;
+  font-family: "Candara";
+    line-height: 1.2;
+	
+	color: rgb(0, 37, 168);
+}
+
+
+
