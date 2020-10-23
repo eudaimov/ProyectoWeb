@@ -1,99 +1,130 @@
 /* CSS Document */
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-img{
-	
-	max-width: 100%;
+img {
+  max-width: 100%;
 }
-header{
-	min-height: 8vh;
-	background-color: #ffc938;
-	
+header {
+  min-height: 9vh;
+  background-color: #ffc938;
+  font-size: 2.5vw;
+  color: #8f8715;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-bottom: 5px;
+  padding-top: 5px;
 }
-footer{
-	min-height: 15vh;
-	background-color: #ffc938;
+footer {
+  min-height: 15vh;
+  background-color: #ffc938;
 }
-
-.contenedor{
-	width: 100%;
-	margin: 0 auto;
+nav {
+  font-weight: bold;
+  font-size: 19pt;
+  font-family: "Bahnschrift";
+  background-color: #8f8715c9;
+  height: 8vh;
+  padding: 0 15%;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+  position: relative;
 }
-
-
-.row{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
+a {
+  text-decoration: none;
+  text-align: center;
+  color: #ffc938;
+  opacity: 1;
 }
-
-
-
-
-.col-1 {width: 8.33%;} 
-.col-2 {width: 16.66%;}
-.col-2a{width: 20%;}
-.col-3 {width: 25%;} 
-.col-4 {width: 33.33%;} 
-.col-5 {width: 41.66%;} 
-.col-6 {width: 50%;} 
-.col-7 {width: 58.33%;} 
-.col-8 {width: 66.66%;} 
-.col-9 {width: 75%;} 
-.col-10 {width: 83.33%;} 
-.col-11 {width: 91.66%;} 
-.col-12 {width: 100%;}
-
-nav{
-	font-weight: bold;
-	font-size: 15pt;
-	background-color: #ffc938;
-	height: 8vh;
-	padding: 0 15%;
-	justify-content: space-between;
-	align-items: center;
-	z-index: 1;
-	position: relative;
-	opacity: 0.5;
+a:hover {
+  transform: scale(1.2);
+  color: #FDA100;
 }
-a{
-	text-decoration: none;
-	text-align: center;
+h1 {
+  margin-bottom: 18pt;
 }
-.centrado{
-	justify-content: center;
+.contenedor {
+  width: 100%;
+  margin: 0 auto;
 }
-.textoblanco{
-	color:white;
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
-.negro{
-	background-color:black;
+.col-1 {
+  width: 8.33%;
 }
-#slider{
-	top:-8vh;
-	z-index: 0;
-	position: relative;
+.col-2 {
+  width: 16.66%;
 }
-.destacados{
-	padding: 0 5vw;
-	min-height: 70vh;
+.col-2a {
+  width: 20%;
 }
-.margen_interno5vw{
-	padding: 5vw 5vw;
+.col-3 {
+  width: 25%;
 }
-.texto_centrado{
-	text-align: center;
+.col-4 {
+  width: 33.33%;
 }
-
-#descripcion_restaurante{
-	
-	min-height: 15vh;
-	padding: 5vw 10vw;
-	margin-top: -8vh;
-	
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+.centrado {
+  justify-content: center;
+  text-align: center;
+}
+.textoblanco {
+  color: white;
+}
+.negro {
+  background-color: black;
+}
+#slider {
+  top: -8vh;
+  z-index: 0;
+  position: relative;
+}
+.destacados {
+  padding: 0 5vw;
+  min-height: 70vh;
+}
+.margen_interno5vw {
+  padding: 5vw 5vw;
+}
+.texto_centrado {
+  text-align: center;
+  font-size: 29px;
+  font-family: "Candara";
+}
+#descripcion_restaurante {
+  min-height: 15vh;
+  padding: 5vw 10vw;
+  margin-top: -8vh;
 }
 #texto_resumen {
   font-size: 29px;
@@ -103,28 +134,166 @@ a{
   text-align: center;
 }
 .texto_evento {
-	text-align: justify;
-	  -webkit-hyphens: auto; 
-  -moz-hyphens:auto; 
-  -ms-hyphens: auto; 
+  text-align: justify;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
   hyphens: auto;
   font-size: 29px;
   font-family: "Candara";
-  color:white;
+  color: white;
   line-height: 1.2;
 }
-.texto_paladrar{
-	text-align: justify;
-	  -webkit-hyphens: auto; 
-  -moz-hyphens:auto; 
-  -ms-hyphens: auto; 
+.texto_paladrar {
+  text-align: justify;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
   hyphens: auto;
   font-size: 29px;
   font-family: "Candara";
-    line-height: 1.2;
-	
-	color: rgb(0, 37, 168);
+  line-height: 1.2;
+  color: rgb(0, 37, 168);
 }
-
-
-
+.centradovertical {
+  align-items: center;
+}
+.derecha {
+  text-align: right;
+}
+#marca {
+  font-family: "Ink Free";
+  font-weight: bolder;
+}
+#slider {
+  overflow: hidden;
+  width: 100%;
+}
+#slider figure img {
+  float: left;
+  width: 25%;
+}
+#slider figure {
+  position: relative;
+  width: 400%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation-timing-function: linear;
+  animation: 10s animacionslider infinite;
+}
+.horario {
+  margin-bottom: 30px;
+}
+.enlace:hover {
+  transform: scale(1.2);
+  color: #FDA100;
+}
+.margeneslaterales {
+  margin-right: 10pt;
+}
+@keyframes animacionslider {
+  0% {
+    left: 0%;
+  }
+  23% {
+    left: 0%;
+  }
+  33% {
+    left: -100%;
+  }
+  56% {
+    left: -100%;
+  }
+  66% {
+    left: -200%;
+  }
+  90% {
+    left: -200%;
+  }
+  100% {
+    left: -300%;
+  }
+}
+/* La Carta*/
+#categorias{
+	position: relative;
+	height: 37vh;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+}
+div.boton{
+	height: 100%;
+	width: 12%;
+	z-index: 2;
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	font-family: "Candara";
+	font-size: 20pt;
+}
+#escena{
+	height: 100%;
+	width: 76%;
+	background-color: white;
+	position: relative;	
+	overflow-x: hidden;
+}
+.carousel {
+	height: 100%;
+	position: absolute;
+	transform-style: preserve-3d;
+	background-color: white;
+}
+.elementos_carousel{
+	height: 33vh;
+	width: 33vh;
+	margin-top: 2.5vh;
+	padding-top: 5%;
+	background-color: white;
+	position: absolute;
+	z-index: -2;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: "Candara";
+	font-weight: bold;
+	font-size: 18pt;
+	color:  #8f8715c9;
+	cursor:pointer;
+}
+.elementos_carousel:hover{
+	font-size: 22pt;
+}
+.img_categoria{
+	max-height: 27vh;
+	height: 65%;
+}
+.filtro{
+	background-color: #ffffff;
+	width: 5vw;
+	height: 7vh;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+	line-height: 5vh;
+	font-family: ARLRDBD;
+	font-size: 2vw;
+	color:  #8f8715c9;
+	transition:all 2s;
+}
+.precio{
+	font-size: 2em;
+	color: red;
+	text-align: right;
+	width: 100%;
+}
