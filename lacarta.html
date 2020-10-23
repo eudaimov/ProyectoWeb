@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>La Carta</title>
+</head>
+	<link rel="stylesheet" href="css/estilos.css"/>
+	<link rel="stylesheet" href="css/all.css" >
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/categorias.js"></script>
+
+<body>
+	<header class="contenedor row centradovertical">
+  <div class="col-4" id="logo"><i class="fas fa-globe enlace"></i></div>
+  <div class="col-4 centrado" id="marca">Le petit restaurant</div>
+  <div class="col-4 contenedor row centradovertical">
+    <div class="col-6 derecha centradovertical"><i class="fab fa-facebook enlace margeneslaterales"></i><i class="fab fa-twitter enlace margeneslaterales"></i><i class="fab fa-instagram enlace margeneslaterales"></i></div>
+    <div class="col-6 derecha " ><i class="fas fa-user-alt enlace"></i></div>
+  </div>
+</header>
+<nav  class="contenedor row" > <a href="www.google.es"  class="col-2a">Home</a> <a href="www.google.es" class="col-2a">Equipo y Filosofía</a> <a href="www.google.es" class="col-2a">La Carta</a> <a href="www.google.es" class="col-2a">Reservas</a> <a href="www.google.es" class="col-2a">Eventos</a> </nav>
+	<div id="categorias">
+			<div class="boton" id="atras" ><i class="fas fa-chevron-left iconos"></i></div> 
+			<div id="escena">
+				<div class="carousel" id="0">
+					 <div class="elementos_carousel" onClick="obtener(1);"> <img class="img_categoria" src="images/desayuno.jpg" alt="Desayunos"/><br>Desayunos</div>
+					<div class="elementos_carousel" onClick="obtener(2);"><img class="img_categoria" src="images/tapa.jpg" alt="Tapas"/><br>Tapas</div>
+					<div class="elementos_carousel" onClick="obtener(3);"><img class="img_categoria" src="images/plato.jpg" alt="Platos"/><br>Platos</div>
+					<div class="elementos_carousel" onClick="obtener(4);"><img class="img_categoria" src="images/bebida.jpg" alt="Bebidas"/><br>Bebidas</div>
+					<div class="elementos_carousel" onClick="obtener(5);"><img class="img_categoria" src="images/postre.jpg" alt="Postres"/><br>Postres</div>					
+					
+				</div>
+			</div>
+			<div class="boton" id="adelante" ><i class="fas fa-chevron-right iconos"></i></div>
+ 		</div>
+</body>
+</html>
